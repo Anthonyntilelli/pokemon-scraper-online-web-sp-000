@@ -1,5 +1,5 @@
 class Pokemon
   
-  def initialized()
+  def initialized(:name,:type,id:nil)
   
 end
