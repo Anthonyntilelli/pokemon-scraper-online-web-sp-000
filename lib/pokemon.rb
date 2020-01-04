@@ -11,8 +11,6 @@ class Pokemon
   
   def save
     if self.id
-      self.update
-    else
       sql = <<-SQL
         INSERT INTO pokemon (name, type) 
         VALUES (?, ?)
