@@ -19,4 +19,6 @@ class Pokemon
      db.execute(sql, id)
   end
 
+  def 
+
 end
